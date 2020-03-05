@@ -9,13 +9,13 @@ The `ng build` and `ng serve` commands traverse the webpack compilation differen
 ## Steps to Reproduce
 
 ### Build
-Run `npm run build` to run a build
-Open `index.html` at `dist/example/index.html`
+Run `npm run build` to run a build\
+Open `index.html` at `dist/example/index.html`\
 Observe that `angular.[hash:20].js` is not present in the scripts but is present in `dist/example`
 
 ### Serve
-Run `npm run serve` to serve the example app on `:4200`
-Inspect Elements in the browser
+Run `npm run serve` to serve the example app on `:4200`\
+Inspect Elements in the browser\
 Note that `angular.[hash:20].js` is present in the scripts added to the body
 
 ## Additional Info
